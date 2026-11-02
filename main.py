@@ -1,3 +1,20 @@
+import time
+import RPi.GPIO as GPIO
+import serial
+import joblib
+
+# 내가 만든 모듈 파일에서 함수 가져오기
+from sensors import read_sensors
+from preprocessing import extract_features
+from model import predict_occupancy
+
+def main():
+    # 1초 주기로 센서 읽고 -> 전처리하고 -> AI로 판단하고 -> 제어하는 메인 루프
+    pass
+
+if __name__ == "__main__":
+    main()
+
 # ==========================================
 # [파트 4] 제어 및 메인 루프 모듈
 # ==========================================

@@ -1,9 +1,9 @@
-import time
-import numpy as np
 import RPi.GPIO as GPIO
 import serial
-import joblib
-from collections import deque
+
+def read_sensors(radar_serial, pir_pin=17):
+    # 센서 읽기 코드...
+    pass
 
 # ==========================================
 # [파트 1] 센서 데이터 수신 모듈

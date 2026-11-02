@@ -1,3 +1,10 @@
+import numpy as np
+import joblib
+
+def predict_occupancy(model, features):
+    # AI 추론 코드...
+    pass
+
 # ==========================================
 # [파트 3] 인공지능 추론(판단) 모듈
 # ==========================================
